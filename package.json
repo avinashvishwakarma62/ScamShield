@@ -1,0 +1,1 @@
+{"name":"scamshield","version":"1.0.0","private":true,"type":"module","scripts":{"start":"npx serve .","check":"node --check js/app.js && node --check js/risk-engine.js && node --check api/analyze.js && node --check api/url-check.js"}}
